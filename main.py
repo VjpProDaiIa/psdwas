@@ -20,7 +20,7 @@ import string
 init(autoreset=True)
 os.system('cls' if os.name == 'nt' else 'clear')
 SUCCESS = "\x1b[38;5;255m[\x1b[32m+\x1b[38;5;255m]"
-taikhoan = """Logged in as \033[1;31m""" + keyauthapp.user_data.username """\033[1;39m."""
+taikhoan = """Logged in as \033[1;31m""" + keyauthapp.user_data.username + """\033[1;39m."""
 whxyu = """
 
                                    ______     _                       ____        __ 
